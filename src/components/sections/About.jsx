@@ -13,7 +13,7 @@ const About = () => (
             </p>
             <div className="flex gap-5 pt-2">
                 <a
-                    href="../../src/assets/Namrta_Resume.pdf"
+                    href="/Namrta_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"

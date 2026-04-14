@@ -1,3 +1,16 @@
+.swiper-pagination-bullet {
+          background: #cbd5e1 !important; /* slate-300 */
+          opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+          background: #0ea5e9 !important; /* sky-500 */
+          width: 24px;
+          border-radius: 4px;
+        }
+        .swiper-slide {
+          height: auto; /* Ensures cards are equal height */
+        }
+        
 .counter {
   font-size: 16px;
   padding: 5px 10px;

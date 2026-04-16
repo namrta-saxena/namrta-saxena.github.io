@@ -11,22 +11,17 @@ const ProjectsTable = () => {
             name: "Random Password generator",
             showPopup: true,
             link: "https://github.com/yourusername/mern-dashboard",
-            description: "Architected a real-time monitoring tool for microservices with Socket.io and PostgreSQL. Focused on high-availability and sub-second data visualization for enterprise metrics."
+            description: "A high-utility security tool designed to solve the friction between 'memorable' and 'secure' passwords."
         },
         {
-            name: "Late Delivery Risk Predictor",
-            link: "https://github.com/yourusername/logistics-ml",
-            description: "Developed an XGBoost classification model to forecast supply chain delays. Optimized performance through geographic feature engineering and log transformations on a 50+ column dataset."
+            name: "Logistics Data Analysis",
+            link: "https://github.com/namrta-saxena/DataScienceRepo/blob/main/2-Logistics_Data_Analysis_and_Delay_Prediction.ipynb",
+            description: "Logistics Data Analysis for understanding the factors that contribute to delays."
         },
         {
-            name: "Agentic Workflow Orchestrator",
-            link: "https://github.com/yourusername/agent-engine",
-            description: "Built a multi-agent system using LangGraph and Python to automate complex decision-making processes, featuring human-in-the-loop validation and persistent state management."
-        },
-        {
-            name: "Enterprise MERN Dashboard",
-            link: "https://github.com/yourusername/mern-dashboard",
-            description: "Architected a real-time monitoring tool for microservices with Socket.io and PostgreSQL. Focused on high-availability and sub-second data visualization for enterprise metrics."
+            name: "Supply Chain Hold Classification",
+            link: "https://github.com/namrta-saxena/DataScienceRepo/blob/main/3-Hold_Type.ipynb",
+            description: "Automated Classification of Inventory Holds using Zero-Shot Method."
         }
     ];
 

@@ -10,7 +10,7 @@ const ProjectsTable = () => {
         {
             name: "Random Password generator",
             showPopup: true,
-            link: "https://github.com/yourusername/mern-dashboard",
+            link: "",
             description: "A high-utility security tool designed to solve the friction between 'memorable' and 'secure' passwords."
         },
         {
@@ -35,7 +35,7 @@ const ProjectsTable = () => {
                             <tr key={index} className="group hover:bg-slate-50/30 transition-colors">
                                 {/* Left Column: Project Name Link */}
                                 <td className="px-8 py-6 align-top">
-                                    {index !== 0 &&
+                                    {!project.showPopup &&
                                         <a
                                             href={project.link}
                                             target="_blank"
@@ -55,7 +55,7 @@ const ProjectsTable = () => {
                                             </svg>
                                         </a>
                                     }
-                                    {index == 0 &&
+                                    {project.showPopup &&
                                         <button
                                             onClick={() => setModalOpen(true)}
                                             className="inline-flex items-center gap-2 text-sm font-extrabold text-slate-900 hover:text-sky-600 transition-colors text-left"

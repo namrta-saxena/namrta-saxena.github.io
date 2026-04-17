@@ -7,7 +7,6 @@ const CertificationsTable = () => {
         { title: "IBM - RAG and Agentic AI", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/professional-cert/JOPKE5AQYW6F" },
         { title: "IBM - Data Science", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/professional-cert/S7NVGM3XWFIZ" },
         { title: "IBM - Back-End Development", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/specialization/E85UKCUMGDSP" },
-        { title: "Learn SQL Basics for Data Science", issuer: "UC Davis", year: "2026", link: "https://www.coursera.org/account/accomplishments/specialization/KC8YRE6I051K" },
         { title: "Python for Data Science and Machine Learning Bootcamp", issuer: "Udemy", year: "2022", link: "https://www.udemy.com/certificate/UC-b7cfa9e2-6bb4-4f81-8b50-8a9d50b057cb/" },
     ];
 

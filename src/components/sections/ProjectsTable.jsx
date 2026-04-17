@@ -15,12 +15,12 @@ const ProjectsTable = () => {
         },
         {
             name: "Logistics Data Analysis",
-            link: "https://github.com/namrta-saxena/DataScienceRepo/blob/main/2-Logistics_Data_Analysis_and_Delay_Prediction.ipynb",
+            link: "https://github.com/namrta-saxena/profile-projects/blob/main/2-Logistics_Data_Analysis_and_Delay_Prediction.ipynb",
             description: "Logistics Data Analysis for understanding the factors that contribute to delays."
         },
         {
             name: "Supply Chain Hold Classification",
-            link: "https://github.com/namrta-saxena/DataScienceRepo/blob/main/3-Hold_Type.ipynb",
+            link: "https://github.com/namrta-saxena/profile-projects/blob/main/3-Hold_Type.ipynb",
             description: "Automated Classification of Inventory Holds using Zero-Shot Method."
         }
     ];

@@ -50,17 +50,7 @@ const ExperienceTimeline = () => {
             role: "Lead Consultant",
             duration: "Feb 2023 - Feb 2026",
             responsibilities: [
-                "Worked on ETA and MAP application. ETA is part of digital Supply chain System (DSCS) that tracks material expediting milestones and certain logistics activities. MAP is Material Allocation Planner. It uses generic concepts of supply and demand to provide a flexible platform to plan for, report on and evaluate material status.",
-                "Implemented features like Holds, History, custom configurations, ETA Performance and ETA Decoupling, Column Finder.",
-                "Worked on Header page, filter, approver modal and user settings page for MWR application",
-                "Implemented SSO in SCVitals application.",
-                "Worked on UI fixes for Doc Sync application.",
-                "Worked on ETA and MAP application. ETA is part of digital Supply chain System (DSCS) that tracks material expediting milestones and certain logistics activities. MAP is Material Allocation Planner. It uses generic concepts of supply and demand to provide a flexible platform to plan for, report on and evaluate material status.",
-                "Implemented features like Holds, History, custom configurations, ETA Performance and ETA Decoupling, Column Finder.",
-                "Worked on Header page, filter, approver modal and user settings page for MWR application",
-                "Implemented SSO in SCVitals application.",
-                "Worked on UI fixes for Doc Sync application."
-
+                "Developed and enhanced core components of the Digital Supply Chain System (DSCS), specifically focusing on the ETA and MAP applications to streamline material expediting and supply-demand allocation planning. Key technical contributions include implementing complex features such as Holds, History tracking, ETA Decoupling, and Custom Configurations, alongside architecting essential UI elements like approver modals, filters, and user settings for the MWR platform. Additionally, strengthened enterprise security through SSO integration in SCVitals and ensured cross-platform stability by resolving critical UI issues within the Doc Sync application."
             ]
         },
         {
@@ -68,12 +58,7 @@ const ExperienceTimeline = () => {
             role: "Senior Software Engineer",
             duration: "Feb 2020 - Jan 2023",
             responsibilities: [
-                "Have worked on serverless architecture using Amazon Lambda functions.",
-                "Worked on automation of daily scheduled tasks of checking the health and functionality of overall product.",
-                "Implemented generation of pdf files and Veracode fixes for the application.",
-                "Developed Rest architecture-based web services to facilitate communication between client and servers",
-                "Designed and develop database schema using PostgreSQL and block chain technology using Amazon QLDB to meet business requirements"
-
+                "Leveraged Amazon Lambda to architect serverless solutions, focusing on the automation of scheduled diagnostic tasks to monitor product health and system functionality. Designed and implemented high-performance RESTful web services to facilitate seamless client-server communication, while engineering robust data layers using PostgreSQL and Amazon QLDB for blockchain-integrated auditing. Additionally, enhanced application utility by developing automated PDF generation systems and ensuring enterprise-grade security through critical Veracode vulnerability remediation."
             ]
         }, {
             company: "Iron Systems India Pvt. Ltd.",
@@ -88,12 +73,7 @@ const ExperienceTimeline = () => {
             role: "Lead Consultant",
             duration: "July 2017-July 2019",
             responsibilities: [
-                "Worked on design, development and implementation of framework for OneExl Application. Developed modules like login, m-pin, fingerprint, to check if is installed or any update exists on phone.",
-                "Worked on design, development and implementation of framework for iExpense Application. Developed modules like expense creation of various types, e.g., cash, credit, per diem, notification, in progress and submitted, approve or reject, attachment, 2FA.",
-                "Worked on design, development and implementation of framework for Password Self Service Application. Developed modules like 2FA, OTP, registering mobile number.",
-                "Worked on design, development and implementation of framework for eVoyage Application. Developed modules like SSO, travel options from travel vendors.",
-                "Worked on design, development and implementation of framework for ExlCarpool Application. Developed module for mapping routes between source and destination.",
-                "Worked on design, development and implementation of framework for Dynamic Survey Application. Developed module for dynamic generation of questionnaire."
+                "Led the end-to-end design and implementation of core frameworks across a diverse suite of enterprise applications, including OneExl, iExpense, and eVoyage. Key contributions involve architecting secure authentication modules such as SSO, 2FA, M-Pin, and biometric fingerprinting, alongside developing complex functional features like dynamic survey engines, route mapping for ExlCarpool, and comprehensive expense management workflows. Furthermore, enhanced mobile and security infrastructure by building system update utilities and automated OTP registration systems for self-service password platforms."
             ]
         },
         {
@@ -101,9 +81,7 @@ const ExperienceTimeline = () => {
             role: "Senior Software Engineer",
             duration: "Oct 2015-July 2017",
             responsibilities: [
-                "Worked on various features, like customizing scan, programming guide filters, reminders, recording, time shift, parental control, locale, dish TV branding, active services, fingerprinting, my account.",
-                "Worked on IservU Hybrid mobile application. Integrated facebook and google Oauth. Managing the comments and ratings of the services. Implemented material design animations and transitions using Ionic-material.",
-                "Worked on Car Pooling mobile application. Implemented car routes between source and destination with fare routes module using Google Maps API V2."
+                "Spearheaded the development of a diverse range of interactive features for digital media and mobile platforms, including complex STB functionalities such as program guides, parental controls, and time-shift recording. Developed the IservU Hybrid application by integrating Facebook and Google OAuth and implementing high-fidelity Material Design animations via Ionic. Additionally, engineered a Car Pooling mobile solution, leveraging the Google Maps API to architect sophisticated route mapping and fare calculation modules."
             ]
         },
         {
@@ -111,8 +89,7 @@ const ExperienceTimeline = () => {
             role: "Assistant Consultant",
             duration: "Apr 2015 - Oct 2015",
             responsibilities: [
-                "Worked on MagicBricks android application. Implemented module for search for buy, rent, find agents and locality.",
-                "Worked on Visual Merchandising and Smart Partner Portal android application. Implemented features like synchronization, update for application."
+                "Contributed to the development of high-impact Android applications, including MagicBricks, where I engineered core search modules for property buying, renting, and locality/agent discovery. Additionally, I enhanced the Visual Merchandising and Smart Partner Portal platforms by implementing critical background features such as seamless data synchronization and automated application update systems."
             ]
         },
         {
@@ -120,10 +97,7 @@ const ExperienceTimeline = () => {
             role: "Member Technical Staff",
             duration: "May 2012 - April 2015",
             responsibilities: [
-                "Worked on Western Union Ikivo hybrid application, was involved in bug fixing, enhancements, optimization and localization. Implemented features involving analytics and In Auth.",
-                "Worked on design, development and implementation of framework for Destroyer/Coppola Application. Developed features that require communication between phone and Oven/Fridge and Server.",
-                "Worked on design, development and implementation of framework for Ucclient Application. Developed modules like contacts, presence, groups, communication, and telephony.",
-                "Worked for NTT Docomo Inc. on Phonebook, UIBatman and Business Card. Involved in performance analysis of tablet and phone application."
+                "Contributed to the design and development of diverse mobile and IoT frameworks, including the Western Union Ikivo hybrid application, where I led bug fixes, localization, and the integration of InAuth and analytics. I engineered specialized communication protocols for the Destroyer/Coppola IoT platform to facilitate seamless interaction between mobile devices, servers, and smart appliances, while also architecting core telephony and presence modules for the Ucclient suite. Furthermore, I supported NTT Docomo Inc. by developing phonebook and business card utilities and conducting comprehensive performance analysis for tablet and smartphone applications."
             ]
         },
         {
@@ -131,15 +105,7 @@ const ExperienceTimeline = () => {
             role: "Software Engineer",
             duration: "Apr 2010 - Apr 2012",
             responsibilities: [
-                "Worked as a member of R & D team and was involved in developing prototype applications for business needs and pre sales purposes.",
-                "Worked on Magic-Box (eBook engine) which involves development and maintenance of a cross platform application which displays eBook in an interactive way.",
-                "Developed module for Android platform that wraps the html code of eBook engine which handles the layout of eBook.",
-                "Developed audio, video, recording plugin for eBook",
-                "Developed modules in jQuery-mobile for eBook like drawing, notes, audio, video, pdf hotspot.",
-                "Developed modules in Sencha Touch like questionnaire, In-app Purchase",
-                "Implemented shell scripts for transferring files to server using ftp at specific scheduled time.",
-                "Worked on Tools Automation and developed features in Java like splitting Pdf file into multiple files and rasterizing of images.",
-                "Worked on improving the performance of application. "
+                "As a member of the R&D team, I specialized in developing cross-platform prototypes and interactive applications for business and pre-sales needs, most notably the Magic-Box eBook engine. I architected core Android modules to wrap and manage HTML-based layouts and engineered specialized plugins for audio, video, and recording. Using jQuery Mobile and Sencha Touch, I built high-utility features including PDF hotspots, drawing tools, in-app purchases, and dynamic questionnaires. Additionally, I optimized system performance and automated backend workflows through Java-based tools for PDF manipulation and Shell scripts for scheduled FTP file transfers."
             ]
         },
         // Add more entries here to total 14 years

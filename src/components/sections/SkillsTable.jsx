@@ -10,11 +10,11 @@ const SkillsTable = () => {
         },
         {
             category: "Database",
-            tools: ["PostgreSQL", "MongoDB", "Redis", "Vector Databases (Pinecone/Chroma)"]
+            tools: ["SQLite", "PostgreSQL", "MongoDB", "Vector Databases (Pinecone/Chroma)"]
         },
         {
             category: "Tools & DevOps",
-            tools: ["Vite", "Tailwind CSS", "Docker", "Postman", "GitHub Actions", "Jira"]
+            tools: ["Vite", "Tailwind CSS", "Postman", "Jira"]
         },
         {
             category: "Config Management",

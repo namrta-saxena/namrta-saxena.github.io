@@ -40,7 +40,7 @@ const ProjectsTable = () => {
                                             href={project.link}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-2 text-sm font-extrabold text-slate-900 group-hover:text-sky-600 transition-colors"
+                                            className="inline-flex items-center gap-2 text-sm font-extrabold text-sky-600 transition-colors"
                                         >
                                             {project.name}
                                             <svg
@@ -49,7 +49,7 @@ const ProjectsTable = () => {
                                                 fill="none"
                                                 stroke="currentColor"
                                                 strokeWidth="2.5"
-                                                className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-all translate-y-0.5"
+                                                className="w-3.5 h-3.5 transition-all translate-y-0.5"
                                             >
                                                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
                                             </svg>
@@ -58,7 +58,7 @@ const ProjectsTable = () => {
                                     {project.showPopup &&
                                         <button
                                             onClick={() => setModalOpen(true)}
-                                            className="inline-flex items-center gap-2 text-sm font-extrabold text-slate-900 hover:text-sky-600 transition-colors text-left"
+                                            className="inline-flex items-center gap-2 text-sm font-extrabold text-sky-600 transition-colors text-left"
                                         >
                                             Password Generator Tool
                                             <svg
@@ -67,7 +67,7 @@ const ProjectsTable = () => {
                                                 fill="none"
                                                 stroke="currentColor"
                                                 strokeWidth="2.5"
-                                                className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-all translate-y-0.5"
+                                                className="w-3.5 h-3.5 transition-all translate-y-0.5"
                                             >
                                                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
                                             </svg>

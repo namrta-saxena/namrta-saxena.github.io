@@ -4,9 +4,9 @@ import SectionCard from '../ui/SectionCard';
 
 const CertificationsTable = () => {
     const certifications = [
-        { title: "IBM - RAG and Agentic AI", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/professional-cert/JOPKE5AQYW6F" },
-        { title: "IBM - Data Science", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/professional-cert/S7NVGM3XWFIZ" },
-        { title: "IBM - Back-End Development", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/specialization/E85UKCUMGDSP" },
+        { title: "IBM - RAG and Agentic AI", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/JOPKE5AQYW6F" },
+        { title: "IBM - Data Science", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/specialization/certificate/S7NVGM3XWFIZ" },
+        { title: "IBM - Back-End Development", issuer: "IBM", year: "2026", link: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/KNC3ZW7J43XL" },
     ];
 
     return (
@@ -22,16 +22,16 @@ const CertificationsTable = () => {
                     </thead>
                     <tbody className="divide-y divide-slate-100">
                         {certifications.map((cert, index) => (
-                            <tr key={index} className="hover:bg-slate-50/50 transition-colors group">
+                            <tr key={index} className="bg-slate-50/50 transition-colors group">
                                 <td className="px-6 py-4">
                                     <a
                                         href={cert.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-sm font-bold text-slate-900 hover:text-sky-600 transition-colors flex items-center gap-2"
+                                        className="text-sm font-bold text-sky-600 transition-colors flex items-center gap-2"
                                     >
                                         {cert.title}
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-3.5 h-3.5 opacity-100 transition-opacity">
                                             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
                                         </svg>
                                     </a>

@@ -5,25 +5,37 @@ import SectionCard from '../ui/SectionCard';
 const SkillsTable = () => {
     const skillGroups = [
         {
-            category: "Technologies",
-            tools: ["React", "Node.js", "TypeScript", "Python", "Agentic AI", "LangGraph", "MERN Stack"]
+            category: "Core Languages",
+            tools: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Python", "Java"]
         },
         {
-            category: "Database",
-            tools: ["SQLite", "PostgreSQL", "MongoDB", "Vector Databases (Pinecone/Chroma)"]
+            category: "Frontend Development",
+            tools: ["React", "Redux", "Angular", "Responsive Design"]
         },
         {
-            category: "Tools & DevOps",
-            tools: ["Vite", "Tailwind CSS", "Postman", "Jira"]
+            category: "Backend Development",
+            tools: ["Node.js", "Nest.js", "Express.js", "RESTful APIs", "GraphQL"]
         },
         {
-            category: "Config Management",
-            tools: ["Git", "NPM/Yarn", "CI/CD Pipelines", "Environment Orchestration"]
+            category: "Databases & Caching",
+            tools: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Amazon QLDB"]
+        },
+        {
+            category: "AI & Vector Databases",
+            tools: ["Pinecone", "ChromaDB", "LangChain", "CrewAI", "LangGraph", "Pandas"]
+        },
+        {
+            category: "Cloud & DevOps",
+            tools: ["AWS (Lambda, API Gateway, EC2)", "Docker", "CI/CD pipelines", "Git", "Linux"]
+        },
+        {
+            category: "Mobile",
+            tools: ["Android (Java)", "Ionic", "Cordova"]
         }
     ];
 
     return (
-        <SectionCard title="Technical Stack">
+        <SectionCard title="Skills">
             <div className="mt-6 rounded-xl border border-slate-200 overflow-hidden bg-white">
                 <table className="w-full border-collapse">
 

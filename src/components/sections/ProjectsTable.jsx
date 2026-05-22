@@ -26,7 +26,7 @@ const ProjectsTable = () => {
     ];
 
     return (
-        <SectionCard title="Key Projects">
+        <SectionCard title="Projects">
             <div className="mt-6 rounded-xl border border-slate-200 overflow-hidden bg-white">
                 <table className="w-full border-collapse">
 

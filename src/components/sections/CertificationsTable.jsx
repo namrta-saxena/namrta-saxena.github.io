@@ -14,7 +14,7 @@ const CertificationsTable = () => {
             <div className="mt-4 overflow-x-auto rounded-xl border border-slate-200 bg-white">
                 <table className="w-full border-collapse text-left">
                     <thead>
-                        <tr className="bg-slate-50 border-b border-slate-200">
+                        <tr className="border-b border-slate-200">
                             <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-widest">Certification Name</th>
                             <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-widest">Issuer</th>
                             <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-widest">Year</th>
@@ -22,7 +22,7 @@ const CertificationsTable = () => {
                     </thead>
                     <tbody className="divide-y divide-slate-100">
                         {certifications.map((cert, index) => (
-                            <tr key={index} className="bg-slate-50/50 transition-colors group">
+                            <tr key={index} className=" transition-colors group">
                                 <td className="px-6 py-4">
                                     <a
                                         href={cert.link}

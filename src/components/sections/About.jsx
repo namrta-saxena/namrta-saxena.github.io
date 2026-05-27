@@ -9,7 +9,7 @@ const About = () => (
                 Hi, I'm Namrta
             </h1>
             <p className="text-lg md:text-xl text-slate-800 leading-relaxed font-medium">
-                Specializing in the intersection of MERN stack engineering and Predictive Analytics. I leverage over a decade of industry experience to transform complex business requirements into high-performance digital products, currently focusing on integrating Agentic AI workflows into enterprise environments.
+                I am a Full-Stack Developer & AI Engineer | Specializing in JavaScript ecosystems, Data Science, and building autonomous agentic AI workflows to solve complex operational challenges.
             </p>
             <div className="flex gap-5 pt-2">
                 <a

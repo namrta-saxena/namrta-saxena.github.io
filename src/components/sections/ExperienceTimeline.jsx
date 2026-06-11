@@ -44,7 +44,7 @@ const TimelineItem = ({ company, duration, role, responsibilities, isLast }) => 
 };
 
 const ExperienceTimeline = () => {
-    const experiences = [
+    const fullstackExperiences = [
         {
             company: "Bechtel India Pvt. Ltd",
             role: "Lead Consultant",
@@ -62,7 +62,10 @@ const ExperienceTimeline = () => {
                 "Leveraged Amazon Lambda to architect serverless solutions, focusing on the automation of scheduled diagnostic tasks to monitor product health and system functionality. Designed and implemented high-performance RESTful web services to facilitate seamless client-server communication, while engineering robust data layers using PostgreSQL and Amazon QLDB for blockchain-integrated auditing. Additionally, enhanced application utility by developing automated PDF generation systems and ensuring enterprise-grade security through critical Veracode vulnerability remediation.",
                 "Environment: Node.js, Angular, AWS Lambda, PostgreSQL, Nest.js, Amazon QLDB"
             ]
-        }, {
+        }
+    ];
+    const mobileExperiences = [
+        {
             company: "Iron Systems India Pvt. Ltd.",
             role: "Principal Software Engineer",
             duration: "Sept 2019 - June 2020",
@@ -116,17 +119,29 @@ const ExperienceTimeline = () => {
                 "Environment: Android, Java, JavaScript, jQuery, jQuery-mobile, PhoneGap, Sencha Touch, iOS, Flex, ActionScript 3.0, Shell Script, SQL, SVN"
             ]
         },
-        // Add more entries here to total 14 years
-    ];
+    ]
 
     return (
         <SectionCard title="Professional Journey">
             <div className="mt-8 px-2 mx-auto">
-                {experiences.map((exp, index) => (
+                <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">
+                    Full Stack Development
+                </h2>
+                {fullstackExperiences.map((exp, index) => (
                     <TimelineItem
                         key={index}
                         {...exp}
-                        isLast={index === experiences.length - 1}
+                        isLast={index === fullstackExperiences.length - 1}
+                    />
+                ))}
+                <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">
+                    Mobile Application Development
+                </h2>
+                {mobileExperiences.map((exp, index) => (
+                    <TimelineItem
+                        key={index}
+                        {...exp}
+                        isLast={index === mobileExperiences.length - 1}
                     />
                 ))}
             </div>

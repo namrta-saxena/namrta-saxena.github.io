@@ -5,24 +5,16 @@ import SectionCard from '../ui/SectionCard';
 const SkillsTable = () => {
     const skillGroups = [
         {
-            category: "Core Languages",
-            tools: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Python", "Java"]
-        },
-        {
-            category: "Frontend Development",
-            tools: ["React", "Redux", "Angular", "Responsive Design"]
-        },
-        {
-            category: "Backend Development",
-            tools: ["Node.js", "Nest.js", "Express.js", "RESTful APIs", "GraphQL"]
-        },
-        {
             category: "Databases & Caching",
-            tools: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Amazon QLDB"]
+            tools: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Amazon QLDB (Ledger)"]
         },
         {
-            category: "AI & Vector Databases",
-            tools: ["Pinecone", "ChromaDB", "LangChain", "CrewAI", "LangGraph", "Pandas"]
+            category: "Core Languages & Back-end",
+            tools: ["Python", "SQL", "JavaScript (ES6+)", "TypeScript", "Node.js", "Nest.js", "Express.js"]
+        },
+        {
+            category: "AI & Advanced Analytics",
+            tools: ["LangChain", "CrewAI", "LangGraph", "Retrieval-Augmented Generation (RAG)", "Data Analytics", "Vector Databases (Pinecone, ChromaDB)"]
         },
         {
             category: "Cloud & DevOps",
